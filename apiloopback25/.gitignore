@@ -62,3 +62,6 @@ typings/
 
 # Cache used by TypeScript's incremental build
 *.tsbuildinfo
+
+#Ignorar el data source para que nuestro string de conexión no quede expuesto en git hub
+/src/datasources/mongodatasource.datasource.ts
