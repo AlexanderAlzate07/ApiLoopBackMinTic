@@ -4,7 +4,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'mongodatasource',
   connector: 'mongodb',
-  url: 'mongodb+srv://AlexanderAlzateZapata:FogekA_87@misiontic.pno2o.mongodb.net/test',
+  url: '', //cadena de conexión a BD
   host: '',
   port: 0,
   user: '',
